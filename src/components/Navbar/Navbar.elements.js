@@ -39,10 +39,10 @@ export const NavIcon = styled(FaMagento)`
 `
 
 export const Img = styled.img`
-  max-width: 150px;
+  max-width: 200px;
   vertical-align: middle;
   display: inline-block;
-  max-height: 300px;
+  max-height: 400px;
 `;
 
 export const HamburgerIcon = styled.div`

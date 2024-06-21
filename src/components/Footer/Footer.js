@@ -39,9 +39,9 @@ function Footer() {
     <FooterContainer>
       <SustainableImg src={require('../../images/topsustainablecompany.png')} alt="Sabzland Top Sustainable Company"  />
       <FooterLogoContainer>
-        <FooterLogo to='/'>
+        {/* <FooterLogo to='/'>
           <Img src={require('../../images/sabzland-footer.png')} alt="Sabzland"  />
-      </FooterLogo>
+      </FooterLogo> */}
       </FooterLogoContainer>
       {/* <FooterSubscription>
         <FooterSubHeading>
@@ -57,35 +57,28 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             {/* <FooterLinkTitle>About Us</FooterLinkTitle> */}
-            <FooterLink to='/connectpur'>Agriculture & Supply Chain</FooterLink>
-            <FooterLink to='/sabzlandsuite'>Business Solutions</FooterLink>
+            {/* <FooterLink to='/connectpur'>Agriculture & Supply Chain</FooterLink>
+            <FooterLink to='/sabzlandsuite'>Business Solutions</FooterLink> */}
             {/* <FooterLink to='/contact'>Updates</FooterLink> */}
             <FooterLink to='/contact'>Contact Us</FooterLink>
             {/* <FooterLink to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=contact@sabzland.com' target="_blank" rel="noopener noreferrer">Contact Us</FooterLink> */}
-            <FooterLink to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=job@sabzland.com' target="_blank" rel="noopener noreferrer">Jobs</FooterLink>
+            {/* <FooterLink to='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=job@sabzland.com' target="_blank" rel="noopener noreferrer">Jobs</FooterLink> */}
             <FooterLink to='/privacypolicy'>Privacy Policy</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <SocialIconLink to='https://www.linkedin.com/company/sabzland/' target="_blank" rel="noopener noreferrer">
-              {/* <FaLinkedin size={20} />  */}
-              <SocialText>LinkedIn</SocialText>
-            </SocialIconLink>
-            <SocialIconLink to='https://www.facebook.com/sabzlandtechnologies' target="_blank" rel="noopener noreferrer">
+            <SocialIconLink to='https://www.facebook.com/connectpur' target="_blank" rel="noopener noreferrer">
               {/* <FaFacebook size={20} />  */}
               <SocialText>Facebook</SocialText>
             </SocialIconLink>
-            <SocialIconLink to='https://www.instagram.com/sabzlandtechnologies' target="_blank" rel="noopener noreferrer">
+
+            <SocialIconLink to='https://www.tiktok.com/@connectpur?_t=8nNoPZQps9Y&_r=1' target="_blank" rel="noopener noreferrer">
               {/* <FaInstagram size={20} />  */}
-              <SocialText>Instagram</SocialText>
-            </SocialIconLink>
-            <SocialIconLink to='https://x.com/Sabzland_' target="_blank" rel="noopener noreferrer">
-              {/* <FaTwitter size={20}/>  */}
-              <SocialText>Twitter</SocialText>
+              <SocialText>Tiktok</SocialText>
             </SocialIconLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
-      <WebsiteRights>SabzlandTechnologies Pvt Limited © {date.getFullYear()} </WebsiteRights>
+      {/* <WebsiteRights>SabzlandTechnologies Pvt Limited © {date.getFullYear()} </WebsiteRights> */}
     </FooterContainer>
   );
 }

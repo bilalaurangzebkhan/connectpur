@@ -66,9 +66,9 @@ function Navbar() {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'> 
-                        <Img src={require('../../images/sabzland_logo.png')} alt="Sabzland"  />
+                        <Img src={require('../../images/connectpur_logo.png')} alt="Sabzland"  />
                     </NavLogo>
-                    <HamburgerIcon onClick={handleClick}>
+                    {/* <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </HamburgerIcon>
                     <NavMenu onClick={handleClick} click={click} >
@@ -94,7 +94,7 @@ function Navbar() {
                     
 
 
-                        {/* <NavItemBtn >
+                        <NavItemBtn >
                             {button ? (
                                 <NavBtnLink to='/contact'>
                                     <Button primary>SIGN UP</Button>
@@ -105,8 +105,8 @@ function Navbar() {
                                 </NavBtnLink>
                             )}
                             
-                        </NavItemBtn> */}
-                    </NavMenu>
+                        </NavItemBtn> 
+                    </NavMenu>*/}
                 </NavbarContainer>
             </Nav>
         </IconContext.Provider>    
