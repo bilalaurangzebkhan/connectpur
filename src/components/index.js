@@ -1,0 +1,12 @@
+export { default as Navbar } from './Navbar/Navbar';
+export { default as Footer } from './Footer/Footer';
+export { default as InfoSection } from './InfoSection/InfoSection';
+export { default as Pricing } from './Pricing/Pricing';
+export { default as AppCards } from './AppCards/AppCards.js';
+export { default as Cards } from './Cards/Cards';
+export { default as BusinessSuite } from './BusinessSuite/BusinessSuite';
+export { default as Sustainable } from './Sustainable/Sustainable';
+export { default as BusinessSuiteTwo } from './BusinessSuiteTwo/BusinessSuiteTwo';
+export { default as Privacy } from './Privacy/Privacy';
+export { default as Contact } from './Contact/Contact.js';
+export { default as ContactForm } from './ContactForm/ContactForm.js';
