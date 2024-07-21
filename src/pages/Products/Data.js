@@ -9,7 +9,7 @@ export const agricultureOne = {
   topLine: 'Empowering Agriculture',
   headline: 'Your One-Stop Shop for Success',
   descriptionOne:
-    'Connectpur is ransforming the agriculture sector by empowering farmers and agricultural businesses. We offer a unique combination of features, all in one place.',
+    'Connectpur is transforming the agriculture sector by empowering farmers and agricultural businesses. We offer a unique combination of features, all in one place.',
   buttonLabel: 'Download App',
   imgStart: '',
   img: require('../../images/sabzlandApp/sabzland_app.png'),
