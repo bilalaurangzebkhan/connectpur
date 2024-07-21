@@ -48,7 +48,7 @@ export const agricultureThree = {
   topLine: '',
   headline: 'Thriving Community',
   descriptionOne:
-    'Connect with a network of farmers, experts, and peers. Share knowledge, ask questions, and gain valuable insights to improve your a gricultural practices.',
+    'Connect with a network of farmers, experts, and peers. Share knowledge, ask questions, and gain valuable insights to improve your agricultural practices.',
   buttonLabel: '',
   imgStart: 'start',
   img: require('../../images/sabzlandApp/sabzlandCommunity.png'),
